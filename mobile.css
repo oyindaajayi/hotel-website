@@ -1,0 +1,49 @@
+ #nav-bar h1{
+  float: none;
+  text-align: center;
+ }
+
+#nav-bar ul{
+  float: none;
+}
+#nav-bar ul li{
+  float: none;
+  text-align: left;
+  padding-bottom: 12px;
+}
+#nav-bar ul li a{
+  padding: 7px;
+  border-bottom:#444 dotted 1px;
+}
+#showcase2 .hotel-frontview{
+  display: none; 
+}
+#showcase2 .sub2{
+  float: none;
+  width: 100%;
+}
+.box{
+  float: none;
+  width: 100%;
+}
+#box-2{
+  background-color: #f7c08a;
+}
+#about-info .info-right{
+  float: none;
+  width: 100%;
+}
+#about-info .info-left{
+  float: none;
+  width: 100%;
+}
+#about-info h1{
+  text-align: center;
+  line-height: 1.2;
+}
+#about-info .info-right{
+  margin-top: 25px; 
+}
+#contact-ending .box {
+  border-bottom: #555 dotted 1px;
+} 

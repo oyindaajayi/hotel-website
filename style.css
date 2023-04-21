@@ -1,0 +1,269 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.clr{
+  clear: both;
+}
+
+ body{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.8em;
+} 
+#nav-bar {
+  background-color: rgb(43, 42, 42);
+  overflow: auto;
+  color: #ffffff;
+  
+}
+#nav-bar h1{
+  float: left;
+  padding-top: 20px;
+}
+#nav-bar ul{
+  float: right;
+}
+#nav-bar ul li {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 15px 7px;
+  color: #ffffff;
+}
+#nav-bar ul li a{
+  color: #ffffff;
+  padding: 20px;
+  text-decoration: none;
+  list-style: none;
+  display: block;
+}
+#nav-bar ul li a:hover, #nav-bar ul li a.current {
+  color: #f7c08a;
+  background-color: #444;
+ 
+}
+.logo a{
+  color: #ffffff;
+  text-decoration: none;
+}
+.container{
+  max-width: 1100;
+  margin: auto;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+#showcase{
+  background: url(../img/showcase.jpg) no-repeat 
+  center center/cover;
+  height: 650px;
+  color: #ffffff;
+  padding-top: 190px;
+  text-align: center;
+}
+#showcase .content{
+  line-height: 5.5em;
+}
+#showcase .content h1{
+  font-size: 65px;
+  padding-bottom: 20px;
+}
+#showcase .content p{
+  line-height: 1.8em;
+}
+.different{
+  color: #f7c08a;
+}
+.btn{
+  background-color: rgb(43, 42, 42);
+  text-decoration: none;
+  color: #ffffff;
+  padding:10px 15px ;
+  font-size: 15px;
+}
+.btn:hover{
+  color: rgb(43, 42, 42);
+  background-color: #f7c08a;
+}
+
+#showcase2 .sub2{
+  background-color: rgb(43, 42, 42);
+  color: white;
+  text-align: center;
+  float: right;
+  padding: 50px 30px;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+#showcase2 .sub2 h3{
+  padding-top: 15px;
+  padding-bottom: 30px;
+  /* line-height: 1.5em;   */
+  font-size: 23px;
+  
+
+}
+#showcase2 .sub2 p{
+  line-height: 1.5em; 
+  font-size: 15px;
+  padding-bottom: 40px;
+}
+
+#showcase2 .sub2 .different{
+  color: #f7c08a;
+}
+#showcase2 .sub2 a{
+  text-decoration: none;
+  background-color: rgb(253, 252, 252);
+  color: #333;
+  /* line-height: 5.5em; */
+  padding: 10px 12px;
+  
+}
+#showcase2 .sub2 a:hover{
+  background-color: #f7c08a;
+  color: #333;
+}
+#showcase2{
+  height: 400px;
+}
+#showcase2 .hotel-frontview{
+  background: url(../img/photo-1.jpg) no-repeat;
+  width: 50%;
+  min-height: 100%;
+  float: left;
+}
+.box{
+  float: left;
+  padding: 50px; 
+  width: 33.3%;
+  text-align: center;
+
+}
+#attribute h3{
+  padding-bottom: 10px;
+}
+#box-2{
+  background-color: #f7c08a;
+}
+#home-footer{
+  text-align: center;
+  background-color: #444;
+  color: #ffffff;
+  padding: 20px;
+}
+
+#about-info .different{
+  color: #f7c08a;
+
+}
+
+#about-info .info-right img{
+  display: block;
+  width: 70%;
+  margin: auto;
+  border-radius: 50%;
+}
+#about-info .info-right{
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+#about-info .info-left{
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+.py-1{
+  padding: 30px 0px;
+}
+#about-info h1{
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+#about-review{
+  background: url(../img/test-bg.jpg) no-repeat center center/cover;
+  height: 750px;
+  padding-top: 100px;
+}
+#about-review .container h1{
+  color: #ffffff;
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 10px;
+  margin-top: 1%;
+
+}
+
+#about-review .about-top{
+  background-color: #f7c08a;
+  margin-bottom: 40px;
+  padding: 20px;
+  margin-top: 2%;
+  opacity: 0.87;
+}
+
+#about-review .about-bottom{
+  background-color: #f7c08a;
+  padding: 20px;
+  opacity: 0.87;
+}
+#about-review .about-top img{
+  width: 100px;
+  float: left;
+  padding: 2px 10px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+#about-review .about-bottom img{
+  width: 100px;
+  float: left;
+  padding: 2px 10px;
+  margin-right: 15px;
+  border-radius: 50%;
+
+}
+#contact-info .form-list input,
+ #contact-info .form-list textarea{
+  padding: 12px;
+  width: 100%;
+  border:1px solid #ddd;
+  margin-bottom: 12px;
+}
+.form-list label{
+  margin-bottom: 3px;
+  display: block;
+}
+.py-2{
+  padding: 30px 13px;
+}
+.form-list textarea{
+  height: 150px;
+}
+#contact-info .form-list input:focus,
+ #contact-info .form-list textarea:focus{
+  outline: none;
+  border-color: #f7c08a;
+}
+#contact-info .contact-head h1{
+ font-size: 47px;
+ margin-bottom: 30px;
+}
+#contact-info .contact-head p{
+  margin-bottom: 18px;
+}
+#contact-ending {
+  background: #333;
+  color: #ddd;
+  
+}
+
+
+
+
+
+
